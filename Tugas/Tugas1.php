@@ -2,13 +2,19 @@
 <head>
     <title>Tugas1</title>
 </head>
+<style>
+
+td{
+    text-align : center
+}
+</style>
 <body>
     
     <a href="Tugas1.1.php" target="blank"> 
         <input type = "button" name ="Tambah" value ="Tambah"; ></a>
     <br><br>
 
-    <table border = "3" style="width:100%; height:100px">
+    <table border = "1" style="width:100%; height:100px">
         <tr>
             <th rowspan ="2">Kode</th>
             <th rowspan ="2">Nama</th>
