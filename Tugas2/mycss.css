@@ -13,6 +13,9 @@ th{
     border : 2px solid black;  
     padding: 5px; 
     text-align: center;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 16px;
 }
 
 td{
@@ -20,10 +23,11 @@ td{
     border : 2px solid black;  
     padding: 5px; 
     text-align: center; 
+    font-family: Calibri;
 }
 
-#tbarang{
-    width:15%;
+#tbarang{ 
+    width:20%;
     margin: 10px 0;
     border:2px solid black;
     background-color:aliceblue;
@@ -33,7 +37,7 @@ td{
 
 
 #ubarang{
-    width:15%;
+    width:50%;
     margin: 30px 0;
     border:2px solid black;
     background-color:aliceblue;
@@ -49,7 +53,7 @@ h1,h2{
     font-family: Calibri;
 }
 
-input[type=button]{
+.button1{
     border:3px solid rgb(4, 150, 101);
     border-radius: 25px;
     width:100px;
@@ -58,16 +62,19 @@ input[type=button]{
     cursor: pointer;
     background-color:rgb(48, 174, 132);
     font-weight: bold;
+    
 }
 
-input[type=submit]{
-    width: 60px;
+.button2, .button3{
+    border: 3px solid green;
+    width: 100px;
     height: 25px;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     background-color: rgb(172, 124, 53);
     font-weight: bold;
+    margin-right: 10px ;
 }
 
 input[type=text]{

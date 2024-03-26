@@ -1,6 +1,7 @@
 <html>
     <head>
     <link rel="stylesheet" href="mycss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Update Barang</title>
     </head>
     <body>
@@ -22,9 +23,25 @@
              <label form ="nama">Jual<label><br>
              <input type ="text" id="jual" name="jual"><br><br>
 
-             <input type="submit" value="Update" name="update">
-             <input type="submit" value="Delete" name="delete">
-             <input type="submit" value="Cancel" name="cancel">
+             <a href="Tugas2.php" target="blank">
+                <button type="button" class="button3">
+                <i class="fas fa-sync icon"></i> UPDATE
+                </button>
+                </a>
+
+                <a href="Tugas2.php" target="blank">
+                <button type="button" class="button3">
+                <i class="fa-solid fa-trash-can"></i> DELETE
+                </button>
+                </a>
+
+                <a href="Tugas2.php" target="blank">
+                <button type="button" class="button3">
+                <i class="fa-solid fa-xmark"></i> CANCEL
+                </button>
+                </a>
+
+           
 
         </form>
     </body>
