@@ -1,23 +1,15 @@
 <html>
 <head>
-    <title>Tugas1</title>
+    <link rel="stylesheet" href="mycss.css">
+    <title>Tugas2</title>
 </head>
-<style>
-
-td{
-    text-align : center;
-    padding: 5px;
-    border-bottom: 1px solid #ddd;
-    
-}
-</style>
 <body>
     
-    <a href="Tugas1.1.php" target="blank"> 
-        <input type = "button" name ="Tambah" value ="Tambah"; ></a>
+    <a href="Tugas2.1.php" target="blank"> 
+        <input type = "button" name ="Tambah" value ="Tambah"; > </a>
     <br><br>
 
-    <table border = "1" style="width:100%; height:100px">
+    <table >
         <tr>
             <th rowspan ="2">Kode</th>
             <th rowspan ="2">Nama</th>
@@ -37,8 +29,8 @@ td{
             <td> 200 </td>
             <td> 350 </td>
             <td> 
-                <a href="Tugas1.2.php" target="blank"> 
-                    <input type = "button" name ="update" value ="update"> </a>
+                <a href="Tugas2.2.php" target="blank"> 
+                    <input type = "button" name ="update" value ="update" ;></a>
             </td>
         </tr>
         <tr>
@@ -48,7 +40,8 @@ td{
             <td> 300 </td>
             <td> 450 </td>
             <td> 
-                <a href="Tugas1.2.php" target="blank"> <input type = "button" name ="update" value ="update"; ></a>
+                <a href="Tugas2.2.php" target="blank"> 
+                    <input type = "button" name ="update" value ="update"; ></a>
             </td>
         </tr>
         <tr>
@@ -58,7 +51,7 @@ td{
             <td> 400 </td>
             <td> 550 </td>
             <td> 
-                <a href="Tugas1.2.php" target="blank"> <input type = "button" name ="update" value ="update"; ></a>
+                <a href="Tugas2.2.php" target="blank"> <input type = "button" name ="update" value ="update"; ></a>
             </td>
         </tr>
     </table>
