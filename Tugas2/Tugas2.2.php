@@ -4,6 +4,7 @@
         <title>Update Barang</title>
     </head>
     <body>
+        <h2>UPDATE BARANG</h2>
         <form id= "ubarang" action="Tugas2.php" >
             
              <label form ="kode">Kode</label><br>

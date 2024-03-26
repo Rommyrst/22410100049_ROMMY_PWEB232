@@ -6,7 +6,7 @@
 <body>
     
     <a href="Tugas2.1.php" target="blank"> 
-        <input type = "button" name ="Tambah" value ="Tambah"; > </a>
+        <input type = "button" name ="Tambah" value ="TAMBAH"; > </a>
     <br><br>
 
     <table >
@@ -30,7 +30,7 @@
             <td> 350 </td>
             <td> 
                 <a href="Tugas2.2.php" target="blank"> 
-                    <input type = "button" name ="update" value ="update" ;></a>
+                    <input type = "button" name ="update" value ="UPDATE" ;></a>
             </td>
         </tr>
         <tr>
@@ -41,7 +41,7 @@
             <td> 450 </td>
             <td> 
                 <a href="Tugas2.2.php" target="blank"> 
-                    <input type = "button" name ="update" value ="update"; ></a>
+                    <input type = "button" name ="update" value ="UPDATE"; ></a>
             </td>
         </tr>
         <tr>
@@ -51,7 +51,8 @@
             <td> 400 </td>
             <td> 550 </td>
             <td> 
-                <a href="Tugas2.2.php" target="blank"> <input type = "button" name ="update" value ="update"; ></a>
+                <a href="Tugas2.2.php" target="blank"> 
+                    <input type = "button" name ="update" value ="UPDATE"; ></a>
             </td>
         </tr>
     </table>
