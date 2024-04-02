@@ -22,6 +22,7 @@
     <br>
     TOTAL NILAI <br>
     <input type="number" name="hasil" id="hasil">
+
     </form>
 
         <script>
@@ -35,30 +36,33 @@
         console.log(x);
         console.log(y);
         console.log(p);
-        let z= parseInt(x)*0.3 + parseInt(y)*0.3 + parseInt(y)*0.4 ;
+        let z= parseInt(x)*0.3 + parseInt(y)*0.3 + parseInt(p)*0.4 ;
         console.log(z);
         document.getElementById("hasil").value =z;
+        nilaihuruf();
+        }
+
+        function nilaihuruf()
+        {
 
 
         let nilai = document.getElementById("hasil").value;
         console.log(nilai)
 
-                if (nilai >=80){
+                if (nilai >=85){
                     document.getElementById("isi").innerHTML = "A";
                 }
-                else if (hasil>=75){
+                else if (nilai>=75){
                     document.getElementById("isi").innerHTML = "B";
                 }
-                else if (hasil>=65){
+                else if (nilai>=65){
                     document.getElementById("isi").innerHTML = "C";
                 }
                 else {
                     document.getElementById("isi").innerHTML = "D";
                 }
             }
-
         </script>
-
         <p id="isi"></p>
     </body>
 </html>
