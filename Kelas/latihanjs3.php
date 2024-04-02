@@ -4,16 +4,23 @@
 <body>
 
 <h2>KALKULATOR</h2>
+
 <form>
-   NILAI 1 : <br>
+   NILAI 1 <br>
     <input type="number" name="nilai1" id="nilai1">
     <br>
     <br>
-    NILAI 2 : <br>
+    NILAI 2 <br>
     <input type="number" name="nilai2" id="nilai2">
     <br>
     <br>
     
+     <!--<button type="button>" onclick ='myfungsi(document.getElementById("nilai1").value, document.getElementById("nilai2")'> </button>
+    <br>
+    <input type="number" name="hasil id="hasil">
+    -->
+
+    <br>
     <button type="button" onclick="myfungsi1()"> Tambah</button>
 
     <button type="button" onclick="myfungsi2()"> Kurang</button>
@@ -24,13 +31,13 @@
     <br>
     <br>
 
-    HASIL : <br>
+    HASIL <br>
     <input type="number" name="hasil" id="hasil">
 </form>
 
     <script>
 
-        //Fungsi Tambah
+        //FUNGSI TAMBAH
         function myfungsi1()
         {
         let x = document.getElementById("nilai1").value;
@@ -42,7 +49,7 @@
         document.getElementById("hasil").value =z;
         }
 
-        //Fungsi Kurang
+        //FUNGSI KURANG
         function myfungsi2()
         {
         let x = document.getElementById("nilai1").value;
@@ -54,7 +61,7 @@
         document.getElementById("hasil").value =z;
         }
 
-        //Fungsi Kali
+        //FUNGSI KALI
         function myfungsi3()
         {
         let x = document.getElementById("nilai1").value;
@@ -66,7 +73,7 @@
         document.getElementById("hasil").value =z;
         }
         
-        //Fungsi Bagi
+        //FUNGSI BAGI
         function myfungsi4()
         {
         let x = document.getElementById("nilai1").value;
