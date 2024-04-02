@@ -1,6 +1,6 @@
 function myfungsi1()
 {
-    document.getElementById("isi1").innerHTML ="Hello MF ";
+    document.getElementById("isi1").innerHTML ="Hello  ";
 }
 
 function myfungsi2()
