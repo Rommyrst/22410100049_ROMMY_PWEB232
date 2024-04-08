@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> VOLUME BALOK & KUBUS</title>
-        <script src="http://localhost/pweb232/Tugas3js/tugasjs3.js">
+        <script src="http://localhost/pweb232/PERTEMUAN3/tugasjs3.js">
 
         </script>
     </head>

@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>
+            PROGRAM HITUNG NILAI
+        </title>
+    </head>
     <body>
         <h2>
-          MENGHITUNG NILAI
+          PROGRAM HITUNG NILAI
         </h2>
     <form>
     30% UTS <br>
