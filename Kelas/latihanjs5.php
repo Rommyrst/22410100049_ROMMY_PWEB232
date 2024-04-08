@@ -5,6 +5,7 @@
             JavaScript For Loop
         </h2>
     
+
 <form>
     START <br>
     <input type="number" name="start" id="start">
@@ -18,7 +19,7 @@
     <button type="button" onclick="tampil()"> TAMPIL</button>
     <br>
 </form>
-        <p id="isi"> </p>
+<p id="isi"> </p>
     <script>
         function tampil(){
         var text = '';
