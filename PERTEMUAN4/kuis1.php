@@ -19,7 +19,7 @@
 
 
         <h2> FORM MENGHIRUNG LUAS PERMUKAAN </h2>
-
+        
         <input type="checkbox" id="option4" name="pilihan" onclick="tampil('lpbalok')">
         <label for="option4" class="balok"> LP Balok </label><br><br>
 
@@ -29,77 +29,77 @@
         <input type="checkbox" id="option6" name="pilihan" onclick="tampil('lptabung')">
         <label for="option6" class="tabung"> LP Tabung </label><br><br>
 
-        <!-- Form Volume Balok -->
-        <form id ="formVBalok" class="formVBalok" style="display:none;">
-            <label for="panjang"> Panjang: </label><br>
-            <input type="text" class="panjang"></input><br><br>
+        <!-- FORM VOLUME BALOK -->
+            <form id ="formVBalok" class="formVBalok" style="display:none;">
+                <label for="panjang"> Panjang: </label><br>
+                <input type="text" class="panjang"></input><br><br>
 
-            <label for="lebar"> Lebar: </label><br>
-            <input type="text" class="lebar"></input><br><br>
+                <label for="lebar"> Lebar: </label><br>
+                <input type="text" class="lebar"></input><br><br>
 
-            <label for="tinggi"> Tinggi: </label><br>
-            <input type="text" class="tinggi"></input><br><br>            
+                <label for="tinggi"> Tinggi: </label><br>
+                <input type="text" class="tinggi"></input><br><br>            
 
-            <button type="button" class="hitung" onclick="volume('vbalok')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="volume('vbalok')"> Hitung </button>
+                <br><br>
+            </form><br>
 
-         <!-- Form Volume Kubus -->
-        <form id="formVKubus" class="formVKubus" style="display:none;">
-            <label for="sisi" class="balok"> Sisi: </label><br>
-            <input type="text" class="sisi"></input><br><br>
+         <!-- FORM VOLUME KUBUS -->
+            <form id="formVKubus" class="formVKubus" style="display:none;">
+                <label for="sisi" class="balok"> Sisi: </label><br>
+                <input type="text" class="sisi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="volume('vkubus')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="volume('vkubus')"> Hitung </button>
+                <br><br>
+            </form><br>
 
-         <!-- Form Volume Tabung -->
-         <form id ="formVTabung" class="formVTabung" style="display:none;">
-            <label for="jarijari"> Jari-jari: </label><br>
-            <input type="text" class="jarijari"></input><br><br>
+         <!-- FORM VOLUME TABUNG -->
+            <form id ="formVTabung" class="formVTabung" style="display:none;">
+                <label for="jarijari"> Jari-jari: </label><br>
+                <input type="text" class="jarijari"></input><br><br>
 
-            <label for="tinggi"> Tinggi: </label><br>
-            <input type="text" class="tinggi"></input><br><br>
+                <label for="tinggi"> Tinggi: </label><br>
+                <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="volume('vtabung')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="volume('vtabung')"> Hitung </button>
+                <br><br>
+            </form><br>
 
-        <!-- Form LP Balok -->
-        <form id ="formLPBalok" class="formLPBalok" style="display:none;">
-            <label for="panjang"> Panjang: </label><br>
-            <input type="text" class="panjang"></input><br><br>
+        <!-- FORM LUAS PERMUKAAN BALOK -->
+            <form id ="formLPBalok" class="formLPBalok" style="display:none;">
+                <label for="panjang"> Panjang: </label><br>
+                <input type="text" class="panjang"></input><br><br>
 
-            <label for="lebar"> Lebar: </label><br>
-            <input type="text" class="lebar"></input><br><br>
+                <label for="lebar"> Lebar: </label><br>
+                <input type="text" class="lebar"></input><br><br>
 
-            <label for="tinggi"> Tinggi: </label><br>
-            <input type="text" class="tinggi"></input><br><br>            
+                <label for="tinggi"> Tinggi: </label><br>
+                <input type="text" class="tinggi"></input><br><br>            
 
-            <button type="button" class="hitung" onclick="luaspermukaan('lpbalok')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="luaspermukaan('lpbalok')"> Hitung </button>
+                <br><br>
+            </form><br>
 
-        <!-- Form LP Kubus -->
-        <form id="formLPKubus" class="formLPKubus" style="display:none;">
-            <label for="sisi" class="balok"> Sisi: </label><br>
-            <input type="text" class="sisi"></input><br><br>
+        <!-- FORM LUAS PERMUKAAN KUBUS -->
+            <form id="formLPKubus" class="formLPKubus" style="display:none;">
+                <label for="sisi" class="balok"> Sisi: </label><br>
+                <input type="text" class="sisi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="luaspermukaan('lpkubus')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="luaspermukaan('lpkubus')"> Hitung </button>
+                <br><br>
+            </form><br>
 
-        <!-- Form LP Tabung -->
-        <form id ="formLPTabung" class="formLPTabung" style="display:none;">
-            <label for="jarijari"> Jari-jari: </label><br>
-            <input type="text" class="jarijari"></input><br><br>
+        <!-- FORM LUAS PERMUKAAN TABUNG -->
+            <form id ="formLPTabung" class="formLPTabung" style="display:none;">
+                <label for="jarijari"> Jari-jari: </label><br>
+                <input type="text" class="jarijari"></input><br><br>
 
-            <label for="tinggi"> Tinggi: </label><br>
-            <input type="text" class="tinggi"></input><br><br>
+                <label for="tinggi"> Tinggi: </label><br>
+                <input type="text" class="tinggi"></input><br><br>
 
-            <button type="button" class="hitung" onclick="luaspermukaan('lptabung')"> Hitung </button>
-            <br><br>
-        </form><br>
+                <button type="button" class="hitung" onclick="luaspermukaan('lptabung')"> Hitung </button>
+                <br><br>
+            </form><br>
 
         <div id="hasil"></div>
 
