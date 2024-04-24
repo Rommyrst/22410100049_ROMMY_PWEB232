@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title> Tugas Quiz 1</title>
+        <title> KUIS 1 VOLUME DAN LUAS PERMUKAAN</title>
         <script src="http://localhost/PWEB232/PERTEMUAN4/kuis1.js"></script>
         <link rel="stylesheet" href="http://localhost/PWEB232/PERTEMUAN4/kuis1.css">
     </head>
@@ -102,6 +102,6 @@
         </form><br>
 
         <div id="hasil"></div>
-        
+
     </body>
 </html>

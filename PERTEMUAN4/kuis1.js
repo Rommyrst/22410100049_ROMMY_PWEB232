@@ -10,7 +10,7 @@ function tampil(type) {
 
     // PEMBERITAHUAN JIKA MENCENTANG LEBIH DARI 1 CHECKBOX
     if (checkboxes > 1) {
-        alert("Hanya boleh memilih satu opsi sekaligus.");
+        alert("JANGAN MENCENTANG LEBIH DARI SATU CHECKBOX, CENTANGLAH HANYA SATU CHECKBOX");
         return;
     }
 
