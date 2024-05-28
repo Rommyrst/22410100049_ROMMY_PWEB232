@@ -1,5 +1,5 @@
 <div class="container mt-3">
-  <h2>Basic Table</h2>         
+  <h2>Ini Barang</h2>         
   <table class="table">
     <thead>
       <tr>
